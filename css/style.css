@@ -1,3 +1,11 @@
+:root {
+  --clr-primary: #2AB2AF;
+  --clr-secondary: #C0DF34;
+  --clr-base: #98A6BD;
+  --clr-base-lt: #E5EFF5;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Karla', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 62.5%;
@@ -9,6 +17,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   font-size: 1.6rem;
   line-height: 1.4;
 }
